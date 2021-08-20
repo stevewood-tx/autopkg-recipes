@@ -9,24 +9,8 @@
 		</category>
 	</general>
 	<scope>
-		<computer_groups>
-			<computer_group>
-				<name>%GROUP_NAME%</name>
-			</computer_group>
-		</computer_groups>
+		<all_computers>true</all_computers>
 	</scope>
-	<package_configuration>
-		<packages>
-			<size>1</size>
-			<package>
-				<name>%pkg_name%</name>
-				<action>Install</action>
-			</package>
-		</packages>
-	</package_configuration>
-	<scripts>
-		<size>0</size>
-	</scripts>
 	<self_service>
 		<use_for_self_service>true</use_for_self_service>
 		<install_button_text>%INSTALL_BUTTON_TEXT%</install_button_text>
